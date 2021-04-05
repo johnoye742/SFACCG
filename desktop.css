@@ -94,6 +94,8 @@ animation-name: me;
 }
 .bar i {
 	float:right;
+	margin-right: 5%;
+	font-size: 35px;
 }
  #ttl {
   background-color: green;
