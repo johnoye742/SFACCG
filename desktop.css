@@ -96,6 +96,8 @@ animation-name: me;
 	float:right;
 	margin-right: 5%;
 	font-size: 35px;
+	color: white;
+	margin-top: 5%;
 }
  #ttl {
   background-color: green;
@@ -283,4 +285,10 @@ div h2 {
 .atitle {
 	text-decoration: underline;
 	color: brown;
+}
+#rb i {
+font-size: 60px;
+	color: white;
+		margin-left: 25%;
+	margin-top: 7%;
 }
