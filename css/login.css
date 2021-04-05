@@ -1,0 +1,170 @@
+@font-face {
+	src: url("https://johnoye742.github.io/SFACC/fonts/AGENCYB.TTF");
+	font-family: dk;
+}
+@font-face {
+	src: url("https://johnoye742.github.io/SFACC/fonts/GILLUBCD.TTF");
+	font-family: dk1;
+}
+* {
+font-family: dk;
+box-sizing: border-box;
+}
+.container {
+	height: 80%;
+	width: 50%;
+	border: 3px solid brown;
+	border-radius: 100px;
+    position: relative;
+	left: 25%;
+	right: 50%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 2%;
+	box-shadow: 10px 10px 5px grey;
+	margin-top: 15%;
+
+}
+.container #email {
+height: 20%;
+width: 80%;
+padding: 5%;
+border-radius: 100px;
+background-color: white;
+}
+
+
+input {
+	font-family: dk1;
+	font-size: 20px;
+}
+.container #pwd {
+height: 20%;
+width: 80%;
+padding: 5%;
+border-radius: 100px;
+background-color: white;
+margin-top: 3%;
+}
+.container #submit {
+	height: 75px;
+	width: 200px;
+    cursor: pointer;
+    border-radius: 100px;
+	border: 3px solid green;
+	background-color: green;
+	color: white;
+	font-family: dk;
+	position: relative;
+	left: 35%;
+	margin-top: 12%;
+	
+}
+#ttl {
+  background-color: green;
+  color: white;
+  height: 10%;
+  width: 100%;
+ z-index: 1;
+ position: fixed;
+  margin: 0;
+  top: 0%;
+  left: 0;
+}
+.ttl h1 {
+	background-color: green;
+  color: white;
+  height: 10%;
+  width: 100%;
+ position: fixed;
+  margin: 0;
+  top: 0;
+  display: block;
+  margin-left: 12%;
+  padding-top: 2%;
+  font-family: dk;
+z-index: 1;
+}
+#ico {
+	height:100%;
+	width: 10%;
+}
+.na {
+	background-color: brown;
+	list-style-type: none;
+	padding: 0;
+
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	right: 0;
+	top: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	transition: width 0.3s;
+	z-index: 1;
+}
+.na #fn {
+	margin: 0;
+}
+.na h1 {
+	margin: 0;
+	color: white;
+}
+
+.na li {
+	float: left;
+	color: white;
+	height: 100%;
+}
+.na li a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	width: 100%;
+	
+	border-bottom: 0px solid #555;
+	background-color: brown;
+	font-size: 15px;
+	height: 100%;
+	padding-top: 17%;
+	
+	float: left;
+	transition: background-color 0.7s;
+}
+/*a fix in daily reading needs to occur*/
+
+.na li a:visited {
+	color: white;
+}
+.na li a:hover {
+	background-color: green;
+	color: white;
+	border-bottom: 5px solid #000;
+}
+
+.na li i {
+	font-size: 30px;
+}
+.log {
+	float: right;
+	top: 1px;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	font-size: 15px;
+	border: 2px solid blue;
+	cursor: pointer;
+	right: 1%;
+	margin-right: 2px;
+    background-image: linear-gradient(to right, blue, blue, cyan);
+	margin-top: 13px;
+	position: relative;
+	z-index: 1;
+}

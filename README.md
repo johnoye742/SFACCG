@@ -1,2 +1,2 @@
-# SFACCG
-St. Francis Of Assisi Catholic Church Galadimawa
+# SFACC
+St. Francis Of Assisi Catholic Church Galadimawa website
