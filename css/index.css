@@ -1,14 +1,14 @@
 
 @font-face {
 	font-family: def;
-	src: url("file:///C:/Users/John/Documents/SFACCG/fonts/AGENCYB.TTF");
+	src: url("https://johnoye742.github.io/SFACCG/fonts/AGENCYB.TTF");
 }
 * {
 	font-family: def;
 }
 body {
-	background-image: url("C://Users/John/Documents/SFACCG/photos/image.png");
-	-moz-background-image: url("C://Users/John/Documents/SFACCG/photos/image.png");
+	background-image: url("https://johnoye742.github.io/SFACCG/photos/image.png");
+	-moz-background-image: url("https://johnoye742.github.io/SFACCG/photos/image.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
