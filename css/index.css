@@ -1,0 +1,75 @@
+
+@font-face {
+	font-family: def;
+	src: url("file:///C:/Users/John/Documents/SFACCG/fonts/AGENCYB.TTF");
+}
+* {
+	font-family: def;
+}
+body {
+	background-image: url("C://Users/John/Documents/SFACCG/photos/image.png");
+	-moz-background-image: url("C://Users/John/Documents/SFACCG/photos/image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*code for navigation bar */
+.nav {
+	list-style-type: none;
+	margin: 0;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: transparent;
+	width: 100%;
+	display: flex;
+
+	padding: 1em;
+	z-index: 1;
+	box-shadow: 5px 5px 5px grey;
+}
+.nav li {
+	float: left;
+	margin: 0.5em;
+	margin-top: 1em;
+	
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	border-radius: 100px;
+	background-color: black;
+	transition: background-color 0.5s;
+}
+.nav li a:hover {
+	border-radius: 100px;
+	background-color: green;
+	color: white;
+}
+#title {
+	margin: 0;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 100px;
+	background-color: brown;
+	padding: 10px;
+	cursor: pointer;
+}
+#about {
+	margin-top: 5em;
+	padding: 2em;
+   
+	left: 0;
+	margin-left: 0;
+	position: relative;
+	background-color: white;
+	
+}
+#title #lg {
+	height: 30px;
+	width: 30px;
+    margin-right: 10px;
+	border-radius: 150px;
+}
