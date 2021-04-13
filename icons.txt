@@ -8,3 +8,4 @@
 <i class="far fa-clipboard"></i>
 <i class="fas fa-book-reader"></i>
 <i class="far fa-comment"></i>
+<i class="fas fa-bars"></i>
