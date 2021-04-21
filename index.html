@@ -3,13 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <title>ST. FRANCIS OF ASSISI CATHOLIC CHURCH GALADIMAWA</title>
-<link rel="stylesheet" href="./css/index.css">
-    <link rel="shortcut icon" href="./favicon.ico">
+<link rel="stylesheet" href="./css/index.css" media="screen and (min-width: 900px)" >
+<link rel="stylesheet" href="./css/index2.css" media="screen and (max-width: 900px)">
+<script src="https://kit.fontawesome.com/fe8ea98d93.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./favicon.ico" >
 <script src="./js/script.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<ul class="nav">
+<ul class="nav" id="nav">
 <h1 id="title"><img id="lg" src="./photos/image.jpg"></img>ST. FRANCIS OF ASSISI CATHOLIC CHURCH GALADIMAWA</h1>
 <li><a id="home" href="#home">HOME</a></li>
 <li><a href="#daily_readings">DAILY READINGS</a></li>
@@ -18,22 +20,19 @@
 <li><a href="#contact">CONTACT INFO</a></li>
 <li><a href="#about">ABOUT US</a></li>
 </ul>
-    <div class="nav1" style="display:none">
- <i class="fas fa-bars"></i>
+    
+	<div class="nav1" >
+	<div class="_container" >
+	<img id="log" src="./photos/image.jpg"></img>
+	</div>
+	<div class="__container">
+ <i class="fas fa-bars" onclick="show()"></i>
+ </div>
     </div>      
-    <ul class="nav2">
-<h1 id="title"><img id="lg" src="./photos/image.jpg"></img>ST. FRANCIS OF ASSISI CATHOLIC CHURCH GALADIMAWA</h1>
-<li><a id="home" href="#home">HOME</a></li>
-<li><a href="#daily_readings">DAILY READINGS</a></li>
-<li><a href="#news">NEWS</a></li>
-<li><a href="#blog">BLOG</a></li>
-<li><a href="#contact">CONTACT INFO</a></li>
-<li><a href="#about">ABOUT US</a></li>
-</ul>
-<div style="display:none;" id="tst">heyo</div>
+    
 <div name="about" id="about">
-<h1 align="center">WHO ARE WE?</h1>
-<p id="txt" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae mi eget urna feugiat vulputate. Curabitur imperdiet fringilla ipsum at fringilla. Vivamus in diam nec massa vestibulum suscipit. Integer eu consectetur libero, sit amet porta nulla. Sed in tempor enim. Donec vestibulum rutrum urna, vitae porta magna auctor sed. Pellentesque elementum neque vel leo ultricies convallis. Maecenas iaculis dui luctus justo molestie posuere. Vestibulum viverra diam ut neque pretium, nec ultricies nibh pretium. Duis ut sollicitudin nulla, porta pellentesque erat.
+<h1 >WHO ARE WE?</h1>
+<p id="txt" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae mi eget urna feugiat vulputate. Curabitur imperdiet fringilla ipsum at fringilla. Vivamus in diam nec massa vestibulum suscipit. Integer eu consectetur libero, sit amet porta nulla. Sed in tempor enim. Donec vestibulum rutrum urna, vitae porta magna auctor sed. Pellentesque elementum neque vel leo ultricies convallis. Maecenas iaculis dui luctus justo molestie posuere. Vestibulum viverra diam ut neque pretium, nec ultricies nibh pretium. Duis ut sollicitudin nulla, porta pellentesque erat.
 
 Proin vitae scelerisque est. Cras eu nunc nec diam dapibus scelerisque. Nam sed velit orci. Nullam vel metus vulputate, pellentesque est ut, laoreet urna. Duis sed scelerisque tellus. Curabitur at felis cursus, dapibus ipsum at, accumsan nisl. Morbi tempus quis nibh ut posuere. Mauris quam risus, dapibus sed dui sit amet, varius consectetur ex. Nulla hendrerit ipsum vitae libero tincidunt, id malesuada metus aliquet.
 
@@ -48,8 +47,8 @@ Aenean et lorem ac odio condimentum pellentesque. Sed euismod massa magna, ac el
 Suspendisse in congue odio. Fusce ut tellus nisl. Sed ac lacinia lectus, et molestie massa.</p>
 </div>
 <div name="news" id="about" style="background-color:brown;margin-top:0;color:white;">
-<h1 align="center">WHAT WE DO?</h1>
-<p id="txt" align="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae mi eget urna feugiat vulputate. Curabitur imperdiet fringilla ipsum at fringilla. Vivamus in diam nec massa vestibulum suscipit. Integer eu consectetur libero, sit amet porta nulla. Sed in tempor enim. Donec vestibulum rutrum urna, vitae porta magna auctor sed. Pellentesque elementum neque vel leo ultricies convallis. Maecenas iaculis dui luctus justo molestie posuere. Vestibulum viverra diam ut neque pretium, nec ultricies nibh pretium. Duis ut sollicitudin nulla, porta pellentesque erat.
+<h1 >WHAT WE DO?</h1>
+<p id="txt" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae mi eget urna feugiat vulputate. Curabitur imperdiet fringilla ipsum at fringilla. Vivamus in diam nec massa vestibulum suscipit. Integer eu consectetur libero, sit amet porta nulla. Sed in tempor enim. Donec vestibulum rutrum urna, vitae porta magna auctor sed. Pellentesque elementum neque vel leo ultricies convallis. Maecenas iaculis dui luctus justo molestie posuere. Vestibulum viverra diam ut neque pretium, nec ultricies nibh pretium. Duis ut sollicitudin nulla, porta pellentesque erat.
 
 Proin vitae scelerisque est. Cras eu nunc nec diam dapibus scelerisque. Nam sed velit orci. Nullam vel metus vulputate, pellentesque est ut, laoreet urna. Duis sed scelerisque tellus. Curabitur at felis cursus, dapibus ipsum at, accumsan nisl. Morbi tempus quis nibh ut posuere. Mauris quam risus, dapibus sed dui sit amet, varius consectetur ex. Nulla hendrerit ipsum vitae libero tincidunt, id malesuada metus aliquet.
 
@@ -66,7 +65,7 @@ Suspendisse in congue odio. Fusce ut tellus nisl. Sed ac lacinia lectus, et mole
 <div id="about" style="margin-top:0;">
 <h1 align="center">SUPPORT US</h1>
 <p id="txt" align="center">Support Us in your own little way by <b>DONATING</b> a token and God would bless you....</p>
-<center><a align="center" href="#support"><button  class="donate">Donate</button></a></center>
+<center><a align="center" href="#support"><button  class="donate">DONATE</button></a></center>
 </div>
 <div id="about" style="margin-top:0;background-color:brown;color:white;">
 <h1 align="center">JOIN US</h1>

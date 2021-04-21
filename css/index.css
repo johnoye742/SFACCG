@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: def;
-	src: url("https://johnoye742.github.io/SFACCG/fonts/AGENCYB.TTF");
+	src: url("C:/Users/John/Documents/johnoye742/SFACCG/fonts/AGENCYB.TTF");
 }
 * {
 	font-family: def;
@@ -16,6 +16,8 @@ body {
 }
 /*code for navigation bar */
 .nav {
+	visibility: visibility;
+	display: block;
 	list-style-type: none;
 	margin: 0;
 	left: 0;
@@ -40,6 +42,7 @@ body {
 	color: white;
 	padding: 20px;
 	border-radius: 100px;
+     width: 10%;
 	background-color: black;
 	transition: background-color 0.5s;
 }
@@ -60,6 +63,8 @@ body {
 #about {
 	margin-top: 5em;
 	padding: 2em;
+display: flex;
+flex-direction: column;
 
 	left: 0;
 	margin-left: 0;
@@ -67,6 +72,7 @@ body {
 	background-color: white;
 	
 }
+
 #title #lg {
 	height: 30px;
 	width: 30px;
@@ -85,6 +91,7 @@ body {
 	color: white;
 	
 }
+
 .donate {
 	position: relative;
 	bottom: 0;
@@ -102,10 +109,14 @@ body {
 	background-color: yellow;
 	color: black;
 }
+
 #tst {
 	position: relative;
 	top: 4em;
 	background-color: black;
 	color: white;
 	margin-top: 2em;
+}
+.nav1 {
+	display: none;
 }

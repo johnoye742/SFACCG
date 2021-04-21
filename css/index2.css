@@ -1,10 +1,11 @@
+/*code for mobile*/
 @font-face {
 	font-family: def;
 	src: url("https://johnoye742.github.io/SFACCG/fonts/AGENCYB.TTF");
 }
 * {
 	font-family: def;
-  column-count: 2;
+  column-count: 1;
 }
 body {
 	background-image: url("https://johnoye742.github.io/SFACCG/photos/image.PNG");
@@ -16,31 +17,40 @@ body {
 }
 /*code for navigation bar */
 .nav {
+visibility: hidden;
 	list-style-type: none;
 	margin: 0;
-	left: 0;
+	
 	top: 0;
 	position: fixed;
 	background-color: transparent;
 	width: 100%;
-	display: flex;
+	display: block;
+height: 0%;
 
-	padding: 1em;
+top: 15%;
 	z-index: 1;
+	transition: height 0.5s;
+	overflow: scroll;
+	
 	box-shadow: 5px 5px 5px grey;
 }
 .nav li {
-	float: left;
-	margin: 0.5em;
-	margin-top: 1em;
+    display: block;
+	
+	margin-top: 0.1em;
+	width: 100%;
 	
 }
 .nav li a {
 	text-decoration: none;
 	color: white;
-	padding: 20px;
+    padding: 20px;
+	float: right;
 	border-radius: 100px;
+	width: 100%;
 	background-color: black;
+	margin-top: 3%;
 	transition: background-color 0.5s;
 }
 .nav li a:hover {
@@ -49,6 +59,7 @@ body {
 	color: white;
 }
 #title {
+	display: none;
 	margin: 0;
 	font-size: 1.5em;
 	color: white;
@@ -108,4 +119,48 @@ body {
 	background-color: black;
 	color: white;
 	margin-top: 2em;
+}
+.nav1 {
+	width: 100%;
+display: flex;
+	background-color: transparent;
+	box-shadow: 5px 5px 5px grey;
+	position: fixed;
+	
+	margin: 0;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 1em;
+	
+}
+.__container {
+	padding: 2%;
+	background-color: black;
+	border-radius: 1em;
+	float: right;
+	margin-top:0;
+	top: 0;
+    position: relative;
+	left: 60%;
+	z-index: 1;
+	height: 50px;
+	width: 45px;
+}
+.__container i {
+	font-size: 3em;
+	color: white;
+	z-index: 1;
+}
+._container {
+	width: 50px;
+	height: 50px;
+	padding: 0.5em;
+	background-color: brown;
+	border-radius: 150px;
+}
+._container #log {
+	width: 50px;
+	height: 50px;
+	border-radius: 150px;
 }

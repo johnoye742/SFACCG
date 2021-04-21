@@ -6,3 +6,16 @@ window.onload=()=> {
     home.style.backgroundColor="green";
   }
 }
+function show() {
+	var nav = document.getElementById("nav");
+
+if(nav.style.height == "70%") {
+	nav.style.height = "0%";
+	nav.style.visibility = "hidden";
+	
+} else {
+	nav.style.visibility = "visible";
+	nav.style.height = "70%";
+	
+}
+}
