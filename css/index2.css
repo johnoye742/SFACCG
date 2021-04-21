@@ -22,7 +22,7 @@ visibility: hidden;
 	margin: 0;
 	
 	top: 0;
-	position: fixed;
+	position: absolute;
 	background-color: transparent;
 	width: 100%;
 	display: block;
@@ -96,6 +96,16 @@ top: 15%;
 	color: white;
 	
 }
+.footer h1 {
+	margin-top:5%;
+}
+.footer i {
+	font-size: 3em;
+	color: white;
+	z-index: 1;
+	margin-top: 7%;
+	cursor: pointer;
+}
 .donate {
 	position: relative;
 	bottom: 0;
@@ -125,7 +135,7 @@ top: 15%;
 display: flex;
 	background-color: transparent;
 	box-shadow: 5px 5px 5px grey;
-	position: fixed;
+	position: absolute;
 	
 	margin: 0;
 	top: 0;
