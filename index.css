@@ -1,0 +1,122 @@
+
+@font-face {
+	font-family: def;
+	src: url("https://johnoye742.github.io/SFACCG/fonts/AGENCYB.TTF");
+}
+* {
+	font-family: def;
+}
+body {
+	background-image: url("https://johnoye742.github.io/SFACCG/photos/image.PNG");
+	-moz-background-image: url("https://johnoye742.github.io/SFACCG/photos/image.PNG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*code for navigation bar */
+.nav {
+	visibility: visibility;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: transparent;
+	width: 100%;
+	display: flex;
+
+	padding: 1em;
+	z-index: 1;
+	box-shadow: 5px 5px 5px grey;
+}
+.nav li {
+	float: left;
+	margin: 0.5em;
+	margin-top: 1em;
+	
+}
+.nav li a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	border-radius: 100px;
+     width: 10%;
+	background-color: black;
+	transition: background-color 0.5s;
+}
+.nav li a:hover {
+	border-radius: 100px;
+	background-color: green;
+	color: white;
+}
+#title {
+	margin: 0;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 100px;
+	background-color: brown;
+	padding: 10px;
+	cursor: pointer;
+}
+#about {
+	margin-top: 5em;
+	padding: 2em;
+display: flex;
+flex-direction: column;
+
+	left: 0;
+	margin-left: 0;
+	position: relative;
+	background-color: white;
+	
+}
+
+#title #lg {
+	height: 30px;
+	width: 30px;
+    margin-right: 10px;
+	border-radius: 150px;
+}
+.footer {
+	position: absolute;
+	background-color: black;
+	
+	left: 0em;
+	
+	width: 100%;
+	margin-top: 3%;
+	padding-bottom: 10em;
+	color: white;
+	
+}
+
+.donate {
+	position: relative;
+	bottom: 0;
+	border-radius: 150px;
+	background-color: green;
+	padding: 20px;
+	color: white;
+	border: 5px solid green;
+	width: 150px;
+	text-align: center;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.donate:hover {
+	background-color: yellow;
+	color: black;
+}
+
+#tst {
+	position: relative;
+	top: 4em;
+	background-color: black;
+	color: white;
+	margin-top: 2em;
+}
+.nav1 {
+	display: none;
+}
