@@ -39,7 +39,7 @@ top: 15%;
     display: block;
 	
 	margin-top: 0.1em;
-	width: 100%;
+	width: 90%;
 	
 }
 .nav li a {
@@ -48,7 +48,7 @@ top: 15%;
     padding: 20px;
 	float: right;
 	border-radius: 100px;
-	width: 100%;
+	width: 90%;
 	background-color: black;
 	margin-top: 3%;
 	transition: background-color 0.5s;
