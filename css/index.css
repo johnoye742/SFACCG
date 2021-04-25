@@ -13,6 +13,7 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
+	width: 100%;
 }
 /*code for navigation bar */
 .nav {
@@ -53,12 +54,13 @@ body {
 }
 #title {
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	color: white;
 	border-radius: 100px;
 	background-color: brown;
 	padding: 10px;
 	cursor: pointer;
+	text-align: center;
 }
 #about {
 	margin-top: 5em;
@@ -82,7 +84,7 @@ flex-direction: column;
 .footer {
 	position: absolute;
 	background-color: black;
-	
+
 	left: 0em;
 	margin: 0;
 	width: 100%;
@@ -128,4 +130,23 @@ flex-direction: column;
 }
 .nav1 {
 	display: none;
+}
+.scroller {
+	transition: all 0.5s;
+	position: fixed;
+	border-radius: 150px;
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	padding: 2%;
+	bottom: -2em;
+	right: 0;
+	opacity: 0;
+	color: white;
+	z-index: 1;
+	cursor: pointer;
+	
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
