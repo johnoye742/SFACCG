@@ -8,7 +8,9 @@ window.onload=()=> {
 }
 $(document).ready(function(){
 	var nav = $("#nav");
+	nav.click(function(){
 nav.toggle(1000);
+	});
 });
 window.addEventListener("scroll", scFun);
 
