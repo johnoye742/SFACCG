@@ -7,8 +7,9 @@ window.onload=()=> {
   }
 }
 $(document).ready(function(){
+	var con = $(".__container");
 	var nav = $("#nav");
-	nav.click(function(){
+	con.click(function(){
 nav.toggle(1000);
 	});
 });
