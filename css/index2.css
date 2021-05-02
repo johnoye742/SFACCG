@@ -17,7 +17,7 @@ body {
 }
 /*code for navigation bar */
 .nav {
-visibility: hidden;
+
 	list-style-type: none;
 	margin: 0;
 	background-color: white;
