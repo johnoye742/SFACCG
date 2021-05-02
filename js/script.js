@@ -12,6 +12,9 @@ $(document).ready(function(){
 	con.click(function(){
 nav.toggle(1000);
 	});
+	$(".__container > i").click(function(){
+nav.toggle(1000);
+	});
 });
 window.addEventListener("scroll", scFun);
 
