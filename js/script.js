@@ -6,19 +6,10 @@ window.onload=()=> {
     home.style.backgroundColor="green";
   }
 }
-function show() {
-	var nav = document.getElementById("nav");
-
-if(nav.style.height == "100%") {
-	nav.style.height = "0%";
-	nav.style.visibility = "hidden";
-	
-} else {
-	nav.style.visibility = "visible";
-	nav.style.height = "100%";
-	
-}
-}
+$(document).ready(function(){
+	var nav = $("#nav");
+nav.toggle(1000);
+});
 window.addEventListener("scroll", scFun);
 
 function scFun() {
